@@ -25,7 +25,7 @@ SneakElite is a practice e-commerce website designed for sneaker enthusiasts. It
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/sneakelite.git
+   git clone https://github.com/Ghousiadreams/SneakElite-website
    ```
 2. Navigate to the project directory:
    ```sh
