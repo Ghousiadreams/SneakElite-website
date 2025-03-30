@@ -1,0 +1,89 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 20px;
+    margin-top: 11vh; 
+}
+
+
+.itemselectedimg {
+  background-color: white ;
+
+
+  display: flex; /* or grid */
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust spacing between boxes */
+}
+
+.simpleimage {
+  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.7);
+  height: 250px;
+  background-size: cover;
+
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 500px; /* Adjust as needed */
+  text-align: center;
+}
+
+
+.simpleimage img {
+  max-width: 100%;  /* Ensures image does not exceed box width */
+  max-height: 100%; /* Ensures image does not exceed box height */
+  object-fit: contain; /* Ensures the entire image is visible inside the box */
+}
+
+
+ .itemselectedinfo {
+  background-color: white ;
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust spacing between boxes */
+    color: rgb(112, 36, 36);
+} 
+ 
+
+.itemtext {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; 
+  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.7);
+  height: 250px;
+  background-size: cover;
+
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 500px; /* Adjust as needed */
+  text-align: center;
+}
+
+.itemtext span{
+    padding: 1.5rem;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.itemtext p{
+    padding: 0 0 1.5rem 1.5rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.placeorder {
+    background-color: rgb(245, 5, 105);
+    color: white;
+    font-size: large;
+    border: 2px solid rgb(68, 2, 30);
+    border-radius: 5px;
+    padding: 0.65rem;
+    margin-left: 1.5rem;
+} 
+
+.placeorder:hover {
+  transform: scale(0.9);
+}
